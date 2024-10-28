@@ -1,0 +1,3 @@
+ansible-playbook main.yml -e SERVER=db -e ENVIRONMENT=dev
+ansible-playbook main.yml -e SERVER=be -e ENVIRONMENT=dev
+ansible-playbook main.yml -e SERVER=fe -e ENVIRONMENT=dev
